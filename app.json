@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "FirePreventionApp",
+    "slug": "FirePreventionApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.sunnyrajsr.FirePreventionApp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ee853fb8-fcbe-4817-a186-8d7f9185b342"
+      }
+    },
+    "plugins": [
+      "expo-font",
+      "@react-native-google-signin/google-signin"
+    ]
+  }
+}
